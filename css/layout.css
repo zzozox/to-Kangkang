@@ -1,0 +1,204 @@
+.fullwidth, .one_half, .one_third, .two_third, .three_fourth, .one_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth, .one_sixth, .five_sixth {
+    margin:0 1.5%;
+    position: relative;
+	display:inline-block;
+	vertical-align:top;
+	height: auto;
+}
+.fullwidth {
+	width:97%;
+}
+.one_half {
+    width: 47%;
+}
+.one_third {
+    width: 30.33%;
+}
+.two_third {
+    width: 63.67%;
+}
+.one_fourth {
+    width: 22%;
+}
+.three_fourth {
+    width: 72%;
+}
+.one_fifth {
+    width: 17%;
+}
+.two_fifth {
+    width: 37%;
+}
+.three_fifth {
+    width: 57%;
+}
+.four_fifth {
+    width: 77%;
+}
+.one_sixth {
+    width: 13.66%;
+}
+.five_sixth {
+    width: 80.33%;
+}
+.last {
+    clear: right;
+    margin-right: 0 !important;
+}
+
+/* #Clearing
+================================================== */
+
+    /* Self Clearing Goodness */
+	.container{font-size: 0px; min-width:90%; }
+    .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+    /* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+    .row,
+    .clearfix {
+      zoom: 1; }
+
+    /* You can also use a <br class="clear" /> to clear columns */
+    .clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
+	
+.alpha 						{ margin-left: 0; }
+.omega 						{ margin-right: 0; }	
+
+@media only screen and (min-width: 0px) and (max-width: 1099px) {
+#content > ul > li {
+    width: 600px;
+}
+.extra {
+	margin: 0 0 0 10px;
+}
+
+#content {
+    margin: 0 0 0 208px;
+    position: relative;
+}
+.slider {
+    width: 466px;
+}
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 860px) {
+.one_half, .one_third, .two_third, .three_fourth, .one_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth, .one_sixth, .five_sixth {
+    float: none;
+	width:97%;
+	height:100%;
+	display:block;
+}
+#portfolio2Col .one_half {
+	width: 46%;
+	margin:0 1.5%;
+    position: relative;
+	display:inline-block;
+	vertical-align:top;
+	height: auto;
+}
+#portfolio3Col .one_third {
+	width: 30%;
+	margin:0 1.5%;
+    position: relative;
+	display:inline-block;
+	vertical-align:top;
+	height: auto;
+}
+#content > ul {
+    padding-top: 0;
+}
+#content > ul > li {
+    width: 90%;
+    margin: 0 0 400px 2%;
+}
+#content {
+    margin: 0;
+}
+.extra{float:none; margin-left:2%;width:100%;}
+.menu_top, .separator, .navig, .menu_bottom {
+	display:none;
+}
+.trigger{
+	display:block;
+}
+#menu{
+    background: url("../images/article_back.png") repeat scroll 0 0 transparent;
+	height:auto;
+    margin: 0 0 2%;
+    padding: 2% 4px 2% 24px;
+    width: 90%;
+	display:none;
+}
+#menu > li {
+    text-align: left;
+}
+.submenu{
+	position:inherit;
+	background:none;
+	left:0;
+	padding:6px 0 0 12px;
+	opacity:1!important;
+	display:block!important;
+}
+.submenu li {
+	text-align:left;
+}
+.submenu span {
+	background:none;
+}
+.with_ul {margin-bottom:-5px;}
+#ContactForm{max-width:100%;}
+#ContactForm .input {max-width:100%;}
+#ContactForm textarea {max-width:100%;}
+
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+.slider {width:141px;}
+.description li{width:200px;}
+.description li .capTitle h3 {width:200px;}
+/* prettyPhoto styling for small screens */
+.pp_pic_holder.pp_default { width: 100%!important; left: 0!important; overflow: hidden; }
+div.pp_default .pp_content_container .pp_left { padding-left: 0!important; }
+div.pp_default .pp_content_container .pp_right { padding-right: 0!important; }
+.pp_content { width: 100%!important; height: auto!important; }
+.pp_fade { width: 100%!important; height: 100%!important; }
+a.pp_expand, a.pp_contract, .pp_hoverContainer, .pp_gallery, .pp_top, .pp_bottom { display: none!important; }
+#pp_full_res img { width: 100%!important; height: auto!important; }
+.pp_details { width: 94%!important; padding-left: 3%; padding-right: 4%; padding-top: 10px; padding-bottom: 10px; background-color: #fff; margin-top: -2px!important; }
+a.pp_close { right: 10px!important; top: 10px!important; }
+#friend1 .one_half {
+	width: 100%;
+}
+#friend2 .one_third {
+	width: 100%;
+}
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+
+}
